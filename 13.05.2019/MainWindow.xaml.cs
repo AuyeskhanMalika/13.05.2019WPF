@@ -26,9 +26,7 @@ namespace _13._05._2019
         }
         private void tabControl_SelectionChanged(object sender, SelectionChangedEventArgs t)
         {
-            newWindow.Margin = new Thickness();
-            Uri uri = new Uri(@"https://www.google.ru");
-            GoogleButton.Items.Add(new WebBrowser { Source = uri });
+
         }
     }
 }
