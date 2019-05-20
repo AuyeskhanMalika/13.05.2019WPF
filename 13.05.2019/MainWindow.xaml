@@ -13,7 +13,7 @@
                     <WebBrowser Source="https://www.google.ru" HorizontalAlignment="Center" Height="600" VerticalAlignment="Top" Width="985"/>
                 </Grid>
             </TabItem>
-            <TabItem Name="newWindow" Header="+"/>
+            <TabItem Name="newWindow" Header="+" MouseDoubleClick="NewWindowMouseDoubleClick"/>
         </TabControl>
     </Grid>
 </Window>

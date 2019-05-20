@@ -24,9 +24,15 @@ namespace _13._05._2019
         {
             InitializeComponent();
         }
-        private void tabControl_SelectionChanged(object sender, SelectionChangedEventArgs t)
-        {
 
+        private void NewWindowMouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            TabItem newTabItem = new TabItem()
+            {
+                Header = "Google",
+                Content = new WebBrowser() { Source = new Uri("https://google.com") },
+            };
+            GoogleButton.Items.Add(newTabItem);
         }
     }
 }
